@@ -15,7 +15,7 @@
 
 - `@EnableAutoConfiguration`：启动Spring Boot的自动配置机制
 - `@ComponentScan`： 扫描被`@Component` (`@Service`,`@Controller`)注解的 bean，注解默认会扫描该类所在的包下所有的类。
-- `@Configuration`：允许在 Spring 上下文中注册额外的 bean 或导入其他配置类
+- `@SpringBootConfiguration`：允许在 Spring 上下文中注册额外的 bean 或导入其他配置类
 
 
 
